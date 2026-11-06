@@ -28,8 +28,8 @@ Open `notebooks/00_setup_and_first_request.ipynb` and run it from the top.
 |---|---|---|---|
 | 00 | [Setup and first request](notebooks/00_setup_and_first_request.ipynb) | Request flow, models, cost checks, response anatomy, errors | Ready |
 | 01 | [Conversations and control](notebooks/01_conversations_and_control.ipynb) | Multi-turn chat, system prompts, streaming, stop sequences | Ready |
-| 02 | Structured outputs | Validated JSON with Pydantic | Planned |
-| 03 | Prompt evaluation | Test datasets, model and code graders | Planned |
+| 02 | [Structured outputs](notebooks/02_structured_outputs.ipynb) | Validated JSON with Pydantic | Ready |
+| 03 | [Prompt evaluation](notebooks/03_prompt_evaluation.ipynb) | Test datasets, model and code graders | Ready |
 | 04 | Prompt engineering | Clarity, specificity, XML tags and examples, each measured | Planned |
 | 05 | Tool use | Schemas, the tool loop, multiple tools, streaming | Planned |
 | 06 | Built-in tools | Text editor, web search, code execution, Files API | Planned |

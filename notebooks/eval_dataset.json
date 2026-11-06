@@ -1,0 +1,18 @@
+[
+  {
+    "task": "Write a Python function `list_bucket_keys(bucket_name)` that uses boto3 to return a list of all object keys in the given S3 bucket, handling pagination.",
+    "format": "python"
+  },
+  {
+    "task": "Create an IAM policy document as a JSON object that allows read-only access (s3:GetObject and s3:ListBucket) to a bucket named 'my-data-bucket' and all objects inside it.",
+    "format": "json"
+  },
+  {
+    "task": "Write a regex that matches a valid AWS S3 bucket name: 3 to 63 characters, lowercase letters, numbers, dots, and hyphens, starting and ending with a letter or number.",
+    "format": "regex"
+  },
+  {
+    "task": "Write a Python function `parse_arn(arn)` that takes an AWS ARN string and returns a dict with the keys partition, service, region, account_id, and resource.",
+    "format": "python"
+  }
+]
