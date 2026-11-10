@@ -1,9 +1,15 @@
 # Runtime for every notebook. Requires Python 3.10+ (tested on 3.12).
-# New libraries are added here when the notebook that needs them lands.
 anthropic>=2.1,<3      # 2.x sends API version 2026-10-21 (temperature/top_p/top_k are rejected)
 python-dotenv>=1.0
 pydantic>=2.0          # structured outputs (notebook 02 onward)
 
+# Later notebooks
+voyageai>=0.3          # embeddings for the RAG notebooks (07, 08, 13)
+matplotlib>=3.8        # charts in notebooks 06 and 09
+fpdf2>=2.8             # builds the board report PDF in notebook 09
+mcp[cli]>=2.3,<3       # Model Context Protocol SDK for notebook 10
+
 # Jupyter
 jupyterlab>=4.0
 ipykernel>=6.29
+ipywidgets>=8.0        # lets progress bars display in Jupyter (voyageai uses them)
